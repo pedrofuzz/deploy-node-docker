@@ -5,4 +5,3 @@ workflows:
   node-tests:
     jobs:
       - node/test
-      - RUN: docker-compose up -d
